@@ -1,0 +1,21 @@
+{
+  "name": "dailos/test",
+  "description": "test",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Dailos Marrero Díaz",
+      "email": "dailos@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    },
+    "files": ["helpers/helpers.php"]
+  },
+  "require": {
+    "gears/router": "^0.6.6"
+  }
+}
